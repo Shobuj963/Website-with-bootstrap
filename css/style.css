@@ -1,0 +1,151 @@
+/*banner section*/
+.banner {
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+        width: 100%;
+    margin-left: 0px;
+}
+.logo {
+    margin-top: 10%;
+    margin-left: 30%;
+}
+nav ul {
+    list-style: none;
+    margin-top: 11%;
+    margin-left: -4%;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0% 5%;
+}
+nav ul li a {
+    color: white;
+    font-size: 120%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Source Serif Pro', serif;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+/*banner details/opening details*/
+.details{
+	margin-top: 10%;
+}
+.details h2 {
+    color: white;
+    margin-left: 15%;
+    font-weight: bold;
+}
+.highlight{
+	background-color: rgb(40, 41, 35, .4)
+}
+.details p{
+	font-family: 'Lato', sans-serif;
+	margin-left: 6%;
+}
+.dot span {
+    border-bottom: 3px solid black;
+    display: block;
+    width: 15px;
+    margin-left: 9%;
+}
+.btn.btn-primary {
+    background: transparent;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 3% 10%;
+    margin-top: 10%;
+    margin-left: 9%;
+    border-color: black;
+    margin-bottom: 39%;
+}
+.btn.btn-primary:hover{
+	background-color: grey;
+}
+
+/* Description*/
+.description{
+	background-color: #F6F9F9;
+        width: 100%;
+    margin-left: 0px;
+}
+.description-header h1 {
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 17%;
+    margin-left: 25%;
+}
+.description-header-underline span {
+    border-bottom: 2px solid #B8B8CB;
+    width: 10%;
+    display: block;
+    margin-left: 51%;
+    margin-top: 10%;
+}
+.description-header p {
+    font-size: 86%;
+    color: grey;
+    margin-left: 25%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+.car-image-1-description {
+    width: 86%;
+    margin-top: 16%;
+    margin-left: 1%;
+}
+
+/* Another Description*/
+.description-2{
+	background-color: #3D3C42;
+    width: 100%;
+    margin-left: 0px;
+}
+.description-header-2 h1 {
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 17%;
+    margin-left: 25%;
+    color: white;
+}
+.description-header-underline-2 span {
+    border-bottom: 2px solid white;
+    width: 10%;
+    display: block;
+    margin-left: 51%;
+    margin-top: 10%;
+}
+.description-header-2 p {
+    font-size: 86%;
+    margin-left: 25%;
+    margin-top: 4%;
+    color: white;
+    margin-bottom: 10%;
+}
+.car-image-2-description {
+    width: 82%;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+
+/*footer*/
+footer{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+.footer-description p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 2%;
+    font-family: 'Source Serif Pro', serif;
+}

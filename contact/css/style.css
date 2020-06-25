@@ -1,0 +1,115 @@
+/*banner section*/
+.banner{
+    padding-bottom: 3%;
+}
+.logo {
+    margin-top: 10%;
+    margin-left: 30%;
+}
+nav ul {
+    list-style: none;
+    margin-top: 12%;
+    margin-left: -4%;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0% 5%;
+}
+nav ul li a {
+    color: black;
+    font-size: 120%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Source Serif Pro', serif;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+/*contact us*/
+.contact-us {
+    background-color: #FF7E56;
+    width: 100%;
+    margin-left: 0%;
+}
+.car-image {
+    margin-top: 6%;
+    margin-left: 19%;
+}
+.contact-us-details{
+
+}
+.contact-us-details p {
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 19%;
+    margin-top: 4%;
+}
+.contact-us-details h1 {
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 19%;
+    color: white;
+}
+.contact-us-square{
+
+}
+.square-logo {
+    width: 56%;
+    margin-top: 22%;
+    margin-left: 2%;
+}
+
+/*form properties*/
+.form-group.col-md-6{
+    color: white;
+    font-weight: bold;
+}
+.form-control {
+    opacity: 50%;
+    background-color: white;
+    margin-left: 27%;
+    width: 75%;
+    margin-bottom: 6%;
+}
+.btn.btn-primary {
+    float: right;
+    margin-top: -15%;
+    margin-right: -15%;
+    background: none;
+    border: none;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 140%;
+    font-weight: bold;
+}
+.btn.btn-primary:hover{
+    color: red;
+}
+.label{
+    margin-left: 27%;
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: #D9623D;
+    height: 80px;
+    width: 100%;
+}
+.footer-description p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 2%;
+    font-family: 'Source Serif Pro', serif;
+}
